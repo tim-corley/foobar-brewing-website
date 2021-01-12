@@ -1,0 +1,15 @@
+{
+  "name": "foobar-brewing-website",
+  "version": "1.0.0",
+  "description": "static website for foobar brewing co",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "keywords": [],
+  "author": "contact@tim-corley.dev",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
