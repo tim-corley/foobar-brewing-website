@@ -248,10 +248,32 @@ main {
   padding: 1.5rem 0.5rem;
   border-top: #eece1a 1px solid;
   border-bottom: #eece1a 1px solid;
-  background: #585858; }
+  background: #585858;
+  transform: translate3d(0, 500%, 0);
+  transition: all 0.5s ease-in; }
+  .beer.show {
+    transform: translate3d(0, 0, 0); }
   .beer h3 {
     font-weight: 800;
     font-size: 2rem; }
+
+.beer:nth-child(1) {
+  transition-delay: 0.25s; }
+
+.beer:nth-child(2) {
+  transition-delay: 0.5s; }
+
+.beer:nth-child(3) {
+  transition-delay: 0.75s; }
+
+.beer:nth-child(4) {
+  transition-delay: 1s; }
+
+.beer:nth-child(5) {
+  transition-delay: 1.25s; }
+
+.beer:nth-child(6) {
+  transition-delay: 1.5s; }
 
 @media screen and (max-width: 768px) {
   main {

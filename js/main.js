@@ -4,6 +4,7 @@ const menu = document.querySelector(".menu");
 const menuNav = document.querySelector(".menu-nav");
 const menuBranding = document.querySelector(".menu-branding");
 const navItems = document.querySelectorAll(".nav-item");
+const beerItems = document.querySelectorAll(".beer");
 
 // SET INITIAL STATE
 let showMenu = false;
@@ -36,4 +37,9 @@ const addCopyright = () => {
   element.appendChild(div);
 };
 
+const triggerItems = () => {
+  beerItems.forEach((item) => item.classList.add("show"));
+};
+
 document.addEventListener("DOMContentLoaded", addCopyright);
+document.addEventListener("DOMContentLoaded", triggerItems);
