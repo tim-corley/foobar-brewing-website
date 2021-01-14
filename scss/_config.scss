@@ -11,6 +11,7 @@ $background-opacity: 0.75;
 @mixin background {
   @if $show-home-image {
     &#bg-img {
+      overflow: hidden;
       background: $home-image;
       background-size: cover;
       background-position: center;
@@ -27,5 +28,30 @@ $background-opacity: 0.75;
         background: rgba($primary-color, $background-opacity);
       }
     }
+  }
+}
+
+// MEDIA QUERY MIXINS
+@mixin mediaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin mediaXl {
+  @media screen and (min-width: 1171px) {
+    @content;
   }
 }

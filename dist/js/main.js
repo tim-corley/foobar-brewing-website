@@ -27,3 +27,13 @@ const toggleMenu = () => {
 };
 
 menuBtn.addEventListener("click", toggleMenu);
+
+const addCopyright = () => {
+  const div = document.createElement("div");
+  const currentYear = new Date().getFullYear();
+  div.innerText = `© ${currentYear} Tim Corley`;
+  const element = document.querySelector(".footer");
+  element.appendChild(div);
+};
+
+document.addEventListener("DOMContentLoaded", addCopyright);
