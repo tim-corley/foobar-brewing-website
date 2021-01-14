@@ -7,11 +7,11 @@
 @include mediaMd {
   main {
     align-items: center;
-    text-align: center;
 
     .lg-heading {
       line-height: 1;
       margin-bottom: 1rem;
+      text-align: center;
     }
   }
 
@@ -27,6 +27,27 @@
 
   .about-image {
     margin-top: 0;
+  }
+
+  .beer-info {
+    margin-top: 2rem;
+    grid-template-areas:
+      "overview"
+      "slot1"
+      "slot2"
+      "slot3"
+      "slot4"
+      "slot5"
+      "slot6";
+    grid-template-columns: 1fr;
+  }
+
+  .overview {
+    font-size: 1.25rem;
+  }
+
+  .beer {
+    text-align: center;
   }
 }
 

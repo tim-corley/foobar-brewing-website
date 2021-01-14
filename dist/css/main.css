@@ -213,18 +213,66 @@ main {
     font-weight: 800;
     font-size: 2rem; }
 
+.beer-info {
+  margin-top: 5rem;
+  background: #444;
+  display: grid;
+  grid-template-areas: "overview overview overview" "slot1 slot2 slot3" "slot4 slot5 slot6";
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr); }
+
+.overview {
+  grid-area: overview;
+  font-size: 1.75rem; }
+
+.slot-1 {
+  grid-area: slot1; }
+
+.slot-2 {
+  grid-area: slot2; }
+
+.slot-3 {
+  grid-area: slot3; }
+
+.slot-4 {
+  grid-area: slot4; }
+
+.slot-5 {
+  grid-area: slot5; }
+
+.slot-6 {
+  grid-area: slot6; }
+
+.beer {
+  margin-top: 1rem;
+  padding: 1.5rem 0.5rem;
+  border-top: #eece1a 1px solid;
+  border-bottom: #eece1a 1px solid;
+  background: #585858; }
+  .beer h3 {
+    font-weight: 800;
+    font-size: 2rem; }
+
 @media screen and (max-width: 768px) {
   main {
-    align-items: center;
-    text-align: center; }
+    align-items: center; }
     main .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      text-align: center; }
   .about-info {
     grid-template-areas: "logo" "about" "item1" "item2" "item3";
     grid-template-columns: 1fr; }
   .about-image {
-    margin-top: 0; } }
+    margin-top: 0; }
+  .beer-info {
+    margin-top: 2rem;
+    grid-template-areas: "overview" "slot1" "slot2" "slot3" "slot4" "slot5" "slot6";
+    grid-template-columns: 1fr; }
+  .overview {
+    font-size: 1.25rem; }
+  .beer {
+    text-align: center; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {

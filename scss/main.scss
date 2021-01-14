@@ -138,4 +138,58 @@ main {
   }
 }
 
+.beer-info {
+  margin-top: 5rem;
+  background: $primary-color;
+  display: grid;
+  grid-template-areas:
+    "overview overview overview"
+    "slot1 slot2 slot3"
+    "slot4 slot5 slot6";
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.overview {
+  grid-area: overview;
+  font-size: 1.75rem;
+}
+
+.slot-1 {
+  grid-area: slot1;
+}
+
+.slot-2 {
+  grid-area: slot2;
+}
+
+.slot-3 {
+  grid-area: slot3;
+}
+
+.slot-4 {
+  grid-area: slot4;
+}
+
+.slot-5 {
+  grid-area: slot5;
+}
+
+.slot-6 {
+  grid-area: slot6;
+}
+
+.beer {
+  margin-top: 1rem;
+  padding: 1.5rem 0.5rem;
+  border-top: $secondary-color 1px solid;
+  border-bottom: $secondary-color 1px solid;
+  background: lighten($primary-color, 8);
+
+  h3 {
+    font-weight: 800;
+    font-size: 2rem;
+  }
+}
+
 @import "mobile";
