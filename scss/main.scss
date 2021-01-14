@@ -185,10 +185,23 @@ main {
   border-top: $secondary-color 1px solid;
   border-bottom: $secondary-color 1px solid;
   background: lighten($primary-color, 8);
+  transform: translate3d(0, 500%, 0);
+  @include easeOut;
+
+  &.show {
+    transform: translate3d(0, 0, 0);
+  }
 
   h3 {
     font-weight: 800;
     font-size: 2rem;
+  }
+}
+
+// DELAY BEER ITEM SLIDE
+@for $x from 1 through 6 {
+  .beer:nth-child(#{$x}) {
+    transition-delay: $x * 0.25s;
   }
 }
 
