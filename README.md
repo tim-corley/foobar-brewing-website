@@ -1,7 +1,7 @@
 <!-- PROJECT HEADER -->
 <br />
 <p align="center">
-  <a href="https://github.com/tim-corley">
+  <a href="https://tim-corley.github.io/foobar-brewing-website/index.html">
     <img src="dist/assets/icons/duff-beer.svg" alt="Logo" width="100" height="100">
   </a>
 
@@ -11,7 +11,7 @@
     a static, responsive marketing website built with a mobile-first approach
     <br />
     <br />
-    <a href="https://github.com/tim-corley">View Demo</a>
+    <a href="https://tim-corley.github.io/foobar-brewing-website/index.html">View Demo</a>
     ·
     <a href="https://github.com/tim-corley/foobar-brewing-website/issues">Report Bug</a>
   </p>
@@ -105,6 +105,14 @@ This is an example of how to list things you need to use the software and how to
    npm run sass
    ``` 
 4. Start Live Server via your IDE
+
+
+### Deployment
+
+1. Push the local `dist/` directory to the remote `gh-pages` branch. GitHub will then publish that branch.
+```sh
+git subtree push --prefix dist origin gh-pages
+````
 
 <!-- DEVELPOMENT NOTES -->
 ## Dev Notes
@@ -278,4 +286,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Tim Corley - [@tcor215](https://twitter.com/tcor215) - contact@tim-corley.dev
 
 
-[product-screenshot]: assets/screenshot.png
+[product-screenshot]: dist/assets/img/screenshot.png
