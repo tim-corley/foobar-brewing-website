@@ -57,7 +57,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
----
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -71,7 +70,6 @@ This is a relatively simple web development project intended to be used as a sta
 
 <!-- GETTING STARTED -->
 ## Getting Started
----
 
 Follow the steps below to get a local development instance up & running.
 
@@ -90,7 +88,6 @@ This is an example of how to list things you need to use the software and how to
   ```
 
 ### Installation
-
 
 1. Clone the repo
    ```sh
@@ -112,11 +109,10 @@ This is an example of how to list things you need to use the software and how to
 1. Push the local `dist/` directory to the remote `gh-pages` branch. GitHub will then publish that branch.
 ```sh
 git subtree push --prefix dist origin gh-pages
-````
+```
 
 <!-- DEVELPOMENT NOTES -->
 ## Dev Notes
----
 
 ### Sass
 
@@ -273,7 +269,6 @@ https://css-tricks.com/snippets/css/complete-guide-grid/
 
 <!-- LICENSE -->
 ## License
----
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
@@ -281,7 +276,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
----
 
 Tim Corley - [@tcor215](https://twitter.com/tcor215) - contact@tim-corley.dev
 
