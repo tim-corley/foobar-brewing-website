@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/tim-corley">
-    <img src="assets/icons/duff-beer.svg" alt="Logo" width="100" height="100">
+    <img src="dist/assets/icons/duff-beer.svg" alt="Logo" width="100" height="100">
   </a>
 
   <h2 align="center">Foobar Brewing Co. Website</h2>
@@ -18,10 +18,10 @@
     <div align="center">
     <h3>Built with:<h3>
       <a href="https://html.spec.whatwg.org/">
-    <img src="assets/icons/html-5.svg" alt="Logo" width=60" height="60">
+    <img src="dist/assets/icons/html-5.svg" alt="Logo" width=60" height="60">
   </a>
     <a href="https://www.npmjs.com/package/node-sass">
-    <img src="assets/icons/node-sass.svg" alt="Logo" width="60" height="60">
+    <img src="dist/assets/icons/node-sass.svg" alt="Logo" width="60" height="60">
   </a>
   </div>
 </p>

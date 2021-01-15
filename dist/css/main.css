@@ -56,7 +56,7 @@
     .menu-branding .logo {
       width: 300px;
       height: 300px;
-      background: url("../../assets/img/duff.png");
+      background: url("../assets/img/duff.png");
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat; }
@@ -66,7 +66,7 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #eece1a; }
+      color: #91eda9; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -78,7 +78,7 @@
     padding: 1rem 0;
     transition: all 0.5s ease-in; }
     .menu .nav-link:hover {
-      color: #eece1a;
+      color: #91eda9;
       transform: scale(1.25); }
 
 .nav-item:nth-child(1) {
@@ -105,7 +105,7 @@ body {
   line-height: 1.5; }
   body#bg-img {
     overflow: hidden;
-    background: url(../../assets/img/brick.jpg);
+    background: url(../assets/img/brick.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed; }
@@ -131,6 +131,7 @@ h3 {
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
+    font-family: monospace;
     margin-bottom: 2rem;
     padding: 0.25rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
@@ -139,13 +140,16 @@ a {
   color: #fff;
   text-decoration: none; }
 
+P {
+  font-family: monospace; }
+
 header {
   position: fixed;
   z-index: 2;
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #91eda9; }
 
 main {
   padding: 4rem;
@@ -155,7 +159,7 @@ main {
     main .icons a {
       padding: 0.5rem; }
       main .icons a:hover {
-        color: #eece1a;
+        color: #91eda9;
         transition: all 0.5s ease-in; }
   main#home {
     overflow: hidden; }
@@ -177,7 +181,7 @@ main {
   grid-template-columns: repeat(3, 1fr); }
 
 .about-image {
-  background: url("../../assets/img/duff.png");
+  background: url("../assets/img/duff.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -186,7 +190,7 @@ main {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: #eece1a 2px solid; }
+  border: #91eda9 2px solid; }
 
 .bio {
   grid-area: about;
@@ -206,8 +210,8 @@ main {
 .item {
   margin-top: 1rem;
   padding: 1.5rem 0.5rem;
-  border-top: #eece1a 1px solid;
-  border-bottom: #eece1a 1px solid;
+  border-top: #91eda9 1px solid;
+  border-bottom: #91eda9 1px solid;
   background: #585858; }
   .item h3 {
     font-weight: 800;
@@ -246,8 +250,8 @@ main {
 .beer {
   margin-top: 1rem;
   padding: 1.5rem 0.5rem;
-  border-top: #eece1a 1px solid;
-  border-bottom: #eece1a 1px solid;
+  border-top: #91eda9 1px solid;
+  border-bottom: #91eda9 1px solid;
   background: #585858;
   transform: translate3d(0, 500%, 0);
   transition: all 0.5s ease-in; }
@@ -310,6 +314,8 @@ main {
   .overview {
     font-size: 1.25rem; }
   .beer {
+    text-align: center; }
+  .icons {
     text-align: center; } }
 
 @media screen and (max-width: 500px) {

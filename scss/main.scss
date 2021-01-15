@@ -26,6 +26,7 @@ h3 {
     font-size: 6rem;
   }
   &.sm-heading {
+    font-family: monospace;
     margin-bottom: 2rem;
     padding: 0.25rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
@@ -35,6 +36,10 @@ h3 {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+P {
+  font-family: monospace;
 }
 
 header {
@@ -92,7 +97,7 @@ main {
 }
 
 .about-image {
-  background: url("../../assets/img/duff.png");
+  background: url("../assets/img/duff.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
