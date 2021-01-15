@@ -11,7 +11,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Yusei Magic", sans-serif;
   line-height: 1.5;
 }
 
@@ -199,9 +199,26 @@ main {
 }
 
 // DELAY BEER ITEM SLIDE
-@for $x from 1 through 6 {
+@for $x from 1 through 7 {
   .beer:nth-child(#{$x}) {
     transition-delay: $x * 0.25s;
+  }
+}
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 4s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
